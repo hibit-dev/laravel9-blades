@@ -1,4 +1,4 @@
-@extends('layouts.web')
+@extends('layout')
 
 @section('title', 'Welcome page title')
 
