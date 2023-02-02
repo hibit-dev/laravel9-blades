@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>My title</title>
-</head>
-<body>
-    <p>My content</p>
-</body>
-</html>
+@extends('layouts.web')
+
+@section('title', 'Welcome page title')
+
+@section('body')
+    <p>Welcome page</p>
+@endsection
